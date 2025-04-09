@@ -19,7 +19,7 @@ st.set_page_config(page_title="Saving Predictor", page_icon="💰")
 
 # Custom title
 st.markdown(
-    "<h1 style='text-align: center; color: #4CAF50;'>🔮 Efficiency Filter Saving Predictor</h1>", 
+    "<h1 style='text-align: center; color: #4CAF50;'>🔮 Efficiency Filter Savings Predictor</h1>", 
     unsafe_allow_html=True
 )
 st.write("Upload your Excel file to predict the Saving values based on your data.")
