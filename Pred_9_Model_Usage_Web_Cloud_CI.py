@@ -55,7 +55,7 @@ if uploaded_file is not None:
                 else:
                     rmse = 0.6  # From trained model
 
-                z_score = 1.96  # for 95% CI 2xstd error, 1 for 68% CI=> 1 std error
+                z_score = 1  # 1.96 for 95% CI 2xstd error, 1 for 68% CI=> 1 std error
                 error_margin = z_score * rmse
 
                 lower_bounds = y_pred_new - error_margin
